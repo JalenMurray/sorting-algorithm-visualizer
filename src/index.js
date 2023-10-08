@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GraphInfoProvider } from './contexts/graph-info/graph-info';
 
-const root = ReactDOM.createRoot(document.getElementById('demo'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <GraphInfoProvider>
